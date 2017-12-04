@@ -182,7 +182,21 @@ Follow the following steps to get development environment running.
   npm run lint:fix
   ```
 
-### Run
+### Run Server (API)
+
+* Run Express server to host API on default port 8000
+
+  ```javascript
+  npm run serve
+  ```
+
+* Run Express server to host API on default port 8000 with file change monitoring
+
+  ```javascript
+  npm run serve:dev
+  ```
+
+### Run App
 
 * Run start
 

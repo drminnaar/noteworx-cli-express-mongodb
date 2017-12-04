@@ -1,14 +1,15 @@
 {
   "name": "noteworx-cli-express-mongodb",
   "version": "1.0.0",
-  "description": "A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, an express note management API built using Express, and mongodb to store notes.",
+  "description": "A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage notes, an express note management API built using Express, and Mongodb to store notes.",
   "main": "app.js",
   "scripts": {
+    "help": "node app --help",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "serve": "node ./Server/server",
     "serve:dev": "nodemon ./Server/server",
-    "start": "npm run serve",
+    "start": "npm run help",
     "test": "echo \"No tests available\" && exit 0"
   },
   "repository": {
